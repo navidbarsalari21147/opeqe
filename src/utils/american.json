@@ -1,0 +1,96 @@
+[
+  {
+    "title": "American",
+    "child": [
+      {
+        "imageName": "13.jpg",
+        "name": "Avocado Bacon Cheeseburger",
+        "detail": "Fastfood.",
+        "preDetail": "American.Main Course",
+        "time": "10-15",
+        "price": "7.69"
+      },
+      {
+        "imageName": "5.jpg",
+        "name": "California Chicken Salad",
+        "detail": "Salad. American. Main Course",
+        "preDetail": "American.Main Course",
+        "time": "25-37",
+        "price": "13.80"
+      },
+      {
+        "imageName": "18.jpg",
+        "name": "Quarter Dark and Leg",
+        "detail": "Fastfood. American. Main Course",
+        "preDetail": "American.Main Course",
+        "time": "40-60",
+        "price": "16.67"
+      },
+      {
+        "imageName": "1.jpg",
+        "name": "Chicken Soup",
+        "detail": "Soup. American. Appetizer",
+        "preDetail": "American.Main Course",
+        "time": "10-15",
+        "price": "6.99"
+      },
+      {
+        "imageName": "14.jpg",
+        "name": "Creamy Chicken Soup",
+        "detail": "Soup. American. Appetizer",
+        "preDetail": "American.Main Course",
+        "time": "10-15",
+        "price": "6.99"
+      },
+      {
+        "imageName": "4.jpg",
+        "name": "Greek Salad",
+        "detail": "Salad. American. Appetizer",
+        "preDetail": "American.Main Course",
+        "time": "9-13",
+        "price": "12.50"
+      },
+      {
+        "imageName": "19.jpg",
+        "name": "Chopped Salad",
+        "detail": "Salad. American. Appetizer",
+        "preDetail": "American.Main Course",
+        "time": "5-7",
+        "price": "14.95"
+      },
+      {
+        "imageName": "3.jpg",
+        "name": "Egg Burger with Truffle Mayo",
+        "detail": "Sandwich. American. Main Course",
+        "preDetail": "American.Main Course",
+        "time": "4-6",
+        "price": "10.49"
+      },
+
+      {
+        "imageName": "21.jpg",
+        "name": "My Hammy & Cheese Omelette",
+        "detail": "Omelette. American. Main Course",
+        "preDetail": "American.Main Course",
+        "time": "15-22",
+        "price": "10.99"
+      },
+      {
+        "imageName": "31.jpg",
+        "name": "Eggs Benedict",
+        "detail": "à la carte. American. Main Course",
+        "preDetail": "American.Main Course",
+        "time": "5-7",
+        "price": "13.48"
+      },
+      {
+        "imageName": "3.jpg",
+        "name": "Cinnamon Roll Pancake",
+        "detail": "Cinnamon roll pancake. American. Main Course",
+        "preDetail": "American.Main Course",
+        "time": "5-7",
+        "price": "11.48"
+      }
+    ]
+  }
+]

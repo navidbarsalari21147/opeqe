@@ -2,7 +2,6 @@
 import React from "react";
 
 const Carousel = ({ dataGallery }) => {
-  console.log(dataGallery);
   return (
     <React.Fragment>
       <div className="col p-0 d-flex flex-column">

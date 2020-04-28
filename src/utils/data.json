@@ -17,6 +17,22 @@
         "preDetail": "American.Main Course",
         "time": "5-7",
         "price": "13.48"
+      },
+      {
+        "imageName": "13.jpg",
+        "name": "Gordita Taco Combo",
+        "detail": "Taco.",
+        "preDetail": "Mexican.Main Course",
+        "time": "15.22",
+        "price": "9.89"
+      },
+      {
+        "imageName": "14.jpg",
+        "name": "Blueberry Pancake Breakfast",
+        "detail": "Pancake. ",
+        "preDetail": "American. Main Course",
+        "time": "10-15",
+        "price": "8.99"
       }
     ]
   },
@@ -70,6 +86,143 @@
         "preDetail": "American.Appetizer",
         "time": "9-13",
         "price": "12.50"
+      }
+    ]
+  },
+  {
+    "title": "Appetizer",
+    "child": [
+      {
+        "imageName": "20.jpg",
+        "name": "Chopped Salad",
+        "detail": "Salad. ",
+        "preDetail": "American. Appetizer",
+        "time": "5-7",
+        "price": "14.95"
+      },
+      {
+        "imageName": "21.jpg",
+        "name": "Kale Salad",
+        "detail": "Salad. ",
+        "preDetail": "American. Appetizer",
+        "time": "5-7",
+        "price": "6.00"
+      },
+      {
+        "imageName": "5.jpg",
+        "name": "Creamy Chicken Soup",
+        "detail": "Salad. ",
+        "preDetail": "American. Appetizer",
+        "time": "10-15",
+        "price": "6.99"
+      },
+      {
+        "imageName": "32.jpg",
+        "name": "Chicken Soup",
+        "detail": "Salad. ",
+        "preDetail": "American. Appetizer",
+        "time": "10-15",
+        "price": "6.99"
+      },
+      {
+        "imageName": "31.jpg",
+        "name": "Caesar Salad",
+        "detail": "Salad. ",
+        "preDetail": "American. Appetizer",
+        "time": "5-7",
+        "price": "11.50"
+      },
+      {
+        "imageName": "4.jpg",
+        "name": "Roasted Chicken Salad",
+        "detail": "Salad. American.Appetizer",
+        "time": "7-10",
+        "price": "14.50"
+      },
+      {
+        "imageName": "1.jpg",
+        "name": "Greek Salad",
+        "detail": "Salad. ",
+        "preDetail": "American. Appetizer",
+        "time": "9-13",
+        "price": "12.50"
+      }
+    ]
+  },
+  {
+    "title": "Main Course",
+    "child": [
+      {
+        "imageName": "13.jpg",
+        "name": "Gordita Taco Combo",
+        "detail": "Taco.",
+        "preDetail": "Mexican.Main Course",
+        "time": "15.22",
+        "price": "9.89"
+      },
+      {
+        "imageName": "9.jpg",
+        "name": "Cheese Pizza",
+        "detail": "Pizza.",
+        "preDetail": "Italian.Main Course",
+        "time": "20-30",
+        "price": "21.00"
+      },
+      {
+        "imageName": "14.jpg",
+        "name": "Avocado Bacon Cheeseburger",
+        "detail": "Fastfood.",
+        "preDetail": "American. Main Course",
+        "time": "10-15",
+        "price": "7.69"
+      },
+      {
+        "imageName": "14.jpg",
+        "name": "Blueberry Pancake Breakfast",
+        "detail": "Pancake. ",
+        "preDetail": "American. Main Course",
+        "time": "10-15",
+        "price": "8.99"
+      },
+      {
+        "imageName": "21.jpg",
+        "name": "Boneless BBQ Chicken Pizza",
+        "detail": "Pizza.",
+        "preDetail": "Italian. Main Course",
+        "time": "30-45",
+        "price": "14.29"
+      },
+      {
+        "imageName": "10.jpg",
+        "name": "My Hammy & Cheese Omelette",
+        "detail": "Omelette.",
+        "preDetail": "American. Main Course",
+        "time": "15-22",
+        "price": "10.99"
+      },
+      {
+        "imageName": "11.jpg",
+        "name": "Egg Burger with Truffle Mayo",
+        "detail": "Sandwich.",
+        "preDetail": "American. Main Course",
+        "time": "4-6",
+        "price": "10.49"
+      },
+      {
+        "imageName": "31.jpg",
+        "name": "Quarter Dark and Leg",
+        "detail": "Fastfood.",
+        "preDetail": "American. Main Course",
+        "time": "40-60",
+        "price": "16.67"
+      },
+      {
+        "imageName": "32.jpg",
+        "name": "California Chicken Salad",
+        "detail": "Salad.",
+        "preDetail": "American. Main Course",
+        "time": "25-37",
+        "price": "13.80"
       }
     ]
   }

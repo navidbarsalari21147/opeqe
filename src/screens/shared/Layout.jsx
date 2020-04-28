@@ -8,7 +8,7 @@ import Carousel from "../../components/specifics/carousel";
 export default class Layout extends Component {
   render() {
     const data = require("../../utils/data.json");
-    console.log("data", data);
+    const americanData = require("../../utils/american.json");
     return (
       <section>
         <Header />
@@ -82,77 +82,6 @@ export default class Layout extends Component {
                 <Carousel dataGallery={item.child} />
               </React.Fragment>
             ))}
-            {/* <Carousel /> */}
-            {/* <div
-              className="main-carousel"
-              data-flickity='{ "cellAlign": "left", "contain": true }'
-            >
-              <div className="divStyle  carousel-cell">A1</div>
-              <div className="divStyle  carousel-cell">A2</div>
-              <div className="divStyle  carousel-cell">A3</div>
-              <div className="divStyle  carousel-cell">A5</div>
-              <div className="divStyle carousel-cell">A6</div>
-            </div> */}
-            <div className="col py-2 d-flex font-weight-bold text-third font-xxlarge">
-              <span>Special Offers</span>
-            </div>
-            <div className="d-flex">
-              <div className="divStyle d-flex flex-column">
-                <img
-                  className="w-100 h-100 rounded"
-                  src={require("../../assets/images/2.jpg")}
-                />
-                <div className="d-flex flex-column py-1">
-                  <span className="text-third font-xlarge"> Eggs Benedict</span>
-                  <div className="d-flex font-large">
-                    <span className="text-primary">à la carte.</span>
-                    <span className="px-1 text-dark-gray">
-                      American. Main Course
-                    </span>
-                  </div>
-                  <div className="d-flex justify-content-between text-third">
-                    <div className="d-flex align-items-center bg-light-gray">
-                      <i className="fal fa-clock"></i>
-                      <span>5-7 Mins</span>
-                      <span className="px-1 bg-gray">$13.48</span>
-                    </div>
-                    <div className="bg-light-gray text-primary">
-                      <span>Free Pickup</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="divStyle">
-                <img
-                  className="w-100 h-100 rounded"
-                  src={require("../../assets/images/3.jpg")}
-                />
-              </div>
-              <div className="divStyle">
-                <img
-                  className="w-100 h-100 rounded"
-                  src={require("../../assets/images/4.jpg")}
-                />
-              </div>
-              <div className="divStyle">
-                <img
-                  className="w-100 h-100 rounded"
-                  src={require("../../assets/images/8.jpg")}
-                />
-              </div>
-              <div className="divStyle">
-                <img
-                  className="w-100 h-100 rounded"
-                  src={require("../../assets/images/7.jpg")}
-                />
-              </div>
-              <div className="divStyle">
-                <img
-                  className="w-100 h-100 rounded"
-                  src={require("../../assets/images/8.jpg")}
-                />
-              </div>
-            </div>
           </div>
           <div
             className="col py-4 my-4 d-flex align-items-center "
@@ -237,6 +166,16 @@ export default class Layout extends Component {
             <div className="col-4 p-0 d-flex justify-content-start">
               <img src={require("../../assets/images/ios-mobile-app.jpg")} />
             </div>
+          </div>
+          <div className="w-100 p-4 my-4 d-flex flex-column">
+            {americanData.map((item, index) => (
+              <React.Fragment key={index}>
+                <span className="px-2 py-1 font-xxlarge font-weight-bold text-thirdfont-xxlarge font-weight-bold text-third border-bottom">
+                  {item.title}
+                </span>
+                <Carousel dataGallery={item.child} />
+              </React.Fragment>
+            ))}
           </div>
           <div
             className="col py-4 my-4 d-flex align-items-center "
