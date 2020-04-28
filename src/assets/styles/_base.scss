@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "trebuchet";
+  src: url("../webfonts/Trebuchet\ W99\ Regular.ttf");
+  font-weight: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "trebuchet";
+}
+
+#root {
+  direction: ltr;
+  text-align: left;
+  overflow-x: hidden;
+}
+
+//Main Colors
+$color-primary: #026764;
+$color-secondary: #996515;
+$color-third: #000;
+$color-fourth: #a5a5a5;
+$color-danger: #dc3545;
+
+//Other Colors
+$light-blue: #427eee;
+$light-gray: #f5f5f5;
+$light-yellow: #ffd28c;
+$light-violet: #cacaea;
+$dark-gray: #696969;
+$gray: #d7d7d7;
+
+.bg-primary {
+  background-color: $color-primary !important;
+}
+.bg-secondary {
+  background-color: $color-secondary !important;
+}
+.bg-third {
+  background-color: $color-third !important;
+}
+.bg-fourth {
+  background-color: $color-fourth !important;
+}
+.bg-light-gray {
+  background-color: $light-gray !important;
+}
+.bg-gray {
+  background-color: $gray !important;
+}
+.border-primary {
+  border-color: $color-primary !important;
+}
+.border-secondary {
+  border-color: $color-secondary !important;
+}
+.border-third {
+  border-color: $color-third !important;
+}
+.border-fourth {
+  border-color: $color-fourth !important;
+}
+.border-light-blue {
+  border-color: $light-blue !important;
+}
+.border-light-gray {
+  border-color: $light-gray !important;
+}
+.border-light-yellow {
+  border-color: $light-yellow !important;
+}
+.border-light-violet {
+  border-color: $light-violet !important;
+}
+.border-dark-gray {
+  border-color: $dark-gray !important;
+}
+.border-gray {
+  border-color: $gray !important;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+.text-primary {
+  color: $color-primary !important;
+}
+.text-secondary {
+  color: $color-secondary !important;
+}
+.text-third {
+  color: $color-third !important;
+}
+.text-fourth {
+  color: $color-fourth !important;
+}
+
+.font-smaller {
+  font-size: 8pt !important;
+}
+
+.font-small {
+  font-size: 10pt !important;
+}
+
+.font-large {
+  font-size: 12pt !important;
+}
+
+.font-xlarge {
+  font-size: 14pt !important;
+}
+
+.font-xxlarge {
+  font-size: 16pt !important;
+}
+
+.font-xxxlarge {
+  font-size: 18pt !important;
+}
+.font-giant {
+  font-size: 20pt !important;
+}
+
+.font-super-giant {
+  font-size: 24pt !important;
+}
+.text-bold-success {
+  color: #08794f;
+}
+.w-20 {
+  width: 20% !important;
+}
+.calendarContainer {
+  top: 100px !important;
+}
+
+.divStyle {
+  margin: 4px;
+  flex: 0 0 32%;
+  max-width: 32%;
+  height: 220px;
+}
+input,
+button {
+  outline: none;
+}
+
+.color-Main {
+  color: #026764;
+}
+
+.shadowBox {
+  box-shadow: 1px 0 10px -5px #a5a5a5;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 160px;
+  margin-right: 10px;
+}
+.flickity-page-dots {
+  display: none;
+}
+.flickity-viewport {
+  height: 400px !important;
+}

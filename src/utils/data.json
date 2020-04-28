@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Special Offers",
+    "child": [
+      {
+        "imageName": "3.jpg",
+        "name": "T-Bone Steak & Eggs",
+        "detail": "A'la Carte",
+        "preDetail": "American.Main Course",
+        "time": "4-6",
+        "price": "16.99"
+      },
+      {
+        "imageName": "14.jpg",
+        "name": "Eggs Benedict",
+        "detail": "à la carte",
+        "preDetail": "American.Main Course",
+        "time": "5-7",
+        "price": "13.48"
+      }
+    ]
+  },
+  {
+    "title": "Salad",
+    "child": [
+      {
+        "imageName": "18.jpg",
+        "name": "Caesar Salad",
+        "detail": "Salad",
+        "preDetail": "American.Appetizer",
+        "time": "5-7",
+        "price": "11.50"
+      },
+      {
+        "imageName": "20.jpg",
+        "name": "Roasted Chicken Salad",
+        "detail": "Salad",
+        "preDetail": "American.Appetizer",
+        "time": "7-10",
+        "price": "15.50"
+      },
+      {
+        "imageName": "21.jpg",
+        "name": "Kale Salad",
+        "detail": "Salad",
+        "preDetail": "American.Appetizer",
+        "time": "5-7",
+        "price": "6.0"
+      },
+      {
+        "imageName": "5.jpg",
+        "name": "Chopped Salad",
+        "detail": "Salad",
+        "preDetail": "American.Appetizer",
+        "time": "5-7",
+        "price": "14.95"
+      },
+      {
+        "imageName": "4.jpg",
+        "name": "California Chicken Salad",
+        "detail": "Salad",
+        "preDetail": "American.Appetizer",
+        "time": "25-37",
+        "price": "13.80"
+      },
+      {
+        "imageName": "1.jpg",
+        "name": "Greek Salad",
+        "detail": "Salad",
+        "preDetail": "American.Appetizer",
+        "time": "9-13",
+        "price": "12.50"
+      }
+    ]
+  }
+]
