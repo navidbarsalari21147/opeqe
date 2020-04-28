@@ -5,10 +5,7 @@ const Carousel = ({ dataGallery }) => {
   return (
     <React.Fragment>
       <div className="col p-0 d-flex flex-column">
-        <div
-          className="main-carousel"
-          data-flickity='{ "cellAlign": "left", "contain": true }'
-        >
+        <div className="main-carousel" data-flickity='{ "groupCells": true }'>
           {dataGallery.map((item, index) => {
             return (
               <div
